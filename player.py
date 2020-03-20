@@ -9,3 +9,6 @@ class Player:
                 next_room.print_room_description(self)
         else:
             print("You cannot move in that direction.")
+
+    def travel_to_room(self, room):
+        self.current_room = room
